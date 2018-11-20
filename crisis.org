@@ -70,3 +70,9 @@ It also generates sharp V-shaped declines in imports and hump-shaped inventory-t
 2. Credit shocks: 15-20%
 3. Inventory adjustments: up to 20%
 4. Trade policy: 0%
+* Presentation notes
+- Many unmarked quotes. I don't trust my economics chops well enough to paraphrase.
+- Changes in real final expenditure were responsible for most of the collapse of international trade.
+- Financial shocks that disrupted export supply and impeded international transactions played a secondary role in explaining the decline of trade.
+- Changes in trade policy --- i.e., protectionism --- played essentially no role in explaining the trade collapse, at least in the aggregate.
+The amount of sales per firm into a market increases with the size of that market (intensive margin).

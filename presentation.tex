@@ -1,0 +1,260 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\begin{document}
+
+\title{The Great Trade Collapse}
+\subtitle{A Review of Bems et al 2013 for \\
+  CSS695 Fall 2018}
+\author{David Prentiss}
+\institute{George Mason University}
+\date{\today}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \frametitle{Intro and Conclusions}
+  \begin{itemize*}
+  \item Three main proximate causes and/or propagation mechanisms that account for the collapse of international trade:
+  \item \textcolor{green}{\cmark} Changes in expenditure: 65-80\%
+  \item \textcolor{green}{\cmark} Credit shocks: 15-20\%
+  \item \textcolor{green}{\cmark} Inventory adjustments: up to 20\%
+  \item \textcolor{red}{\xmark} Trade policy: 0\%
+  \end{itemize*}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Stylized facts}
+  \begin{center}
+    \includegraphics[scale=0.31]{graph.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Stylized facts}
+  \begin{enumerate}
+  \item The trade collapse stands out relative to post-WWII experience in terms of its abruptness, magnitude, and synchronization across countries.
+  \item The trade collapse was asymmetric across sectors.
+  \item The trade collapse occurred almost entirely on the intensive margin of trade, whether measured at the sector or firm level.
+  \item The trade collapse mostly resulted from changes in the volume of trade, not price changes.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Framework}
+  Constant elasticity of substitution import demand:
+  \begin{equation*}
+    d_{ij} = \left(\frac{\tau_{ij}p_i}{P_j}\right)^{-\sigma}D_j
+  \end{equation*}
+  \begin{itemize}
+  \item \(d_{ij}\) is the aggregate real imports by country \(j\) from country \(i\),
+  \item \(p_i\) is the price at the factory gate of the good from country \(i\),
+  \item \(\tau_{ij}\) is an ad valorem cost of delivering goods from the factory gate in country \(i\) to final purchasers in country \(j\),
+  \item \(P_j\) is the aggregate price index for final expenditure in country \(j\), and
+  \item \(D_j\) is real aggregate expenditure by country \(j\) (expenditure).
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Framework}
+  \begin{itemize}
+    \item Hold trade costs \(\tau_{ij}\) constant and take the natural log.
+      \item Log-linear import demand equation:
+  \begin{equation*}
+    \hat{d}_{ij} = - \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j
+  \end{equation*}
+  \item \(\hat{d}\) is the CES-predicted change in imports.
+  \item Decrease aggregate expenditure (\(\hat{D}_j<0\))?
+  \item Increase in the relative prices of imports (\(\hat{p}_i-\hat{P}_j<0\))?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Framework}
+  \begin{itemize}
+  \item Early research suggested this was too simple.
+  \item Enter: ``the trade wedge'', \(\omega\)
+  \begin{align*}
+    \omega &\equiv\hat{m}_{ij}-\hat{d}_{ij} = \hat{m}_{ij} + \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j \\
+    \hat{m}_{ij} &= \beta_1\hat{\tau}_{ij}+\beta_2\left(\hat{p}_i-\hat{P}_j\right) + \beta_3\hat{D}_j \\
+    \omega &= \beta_1\hat{\tau}_{ij}+\left(\beta_2-\sigma\right)\left(\hat{p}_i-\hat{P}_j\right) + \left(\beta_3-1\right)\hat{D}_j
+  \end{align*}
+    \item \(\hat{m}_{ij} \) is the actual change in imports.
+    \item \(\beta_1\) is the elasticity of real imports with respect trade costs.
+    \item \(\beta_2\) is the elasticity of relative prices.
+    \item \(\beta_3\) is the elasticity of aggregate expenditure.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Framework}
+  The trade wedge:
+  \begin{equation*}
+    \omega = \beta_1\hat{\tau}_{ij}+\left(\beta_2-\sigma\right)\left(\hat{p}_i-\hat{P}_j\right) + \left(\beta_3-1\right)\hat{D}_j
+  \end{equation*}
+  \begin{enumerate}
+  \item Increases in policy or nonpolicy trade costs.
+  \item Factors that amplify the empirical elasticity of imports to final demand relative to calibrated CES elasticities.
+  \item Multisector, asymmetric spending changes across sectors.
+  \end{enumerate}
+  \begin{itemize*}
+  \item ``...we propose mapping explanations for the trade collapse into either (a) relative price changes or (b) changes in the trade wedge.''
+  \end{itemize*}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The composition of expenditure changes}
+  Asymmetric expenditure across sectors:
+  \begin{itemize}
+    \item Extend the benchmark framework to account for asymmetric expenditure
+      across (2) sectors.
+      \item The sectors are goods and services with only goods traded.
+    \begin{equation*}
+      \hat{m}=\left[ \sum_s \alpha^m(s)\left( \frac{\hat{d}(s)}{\hat{D}} \right) \right]\hat{D}
+    \end{equation*}
+    \item If sectors with relatively large expenditure change have relatively large import share, then the elasticity of imports to aggregate expenditure will be greater than one.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The composition of expenditure changes}
+  Input linkages across sectors and countries:
+  \begin{itemize}
+  \item Extend the model again to account for intermediate goods.
+  \item With no intermediate goods imported, the model is the same as the
+    previous model. (\(\beta_3>1\))
+  \item If intermediate goods are imported, and the fall in expenditure is
+    larger for goods than for services (assuming both fall), the
+    elasticity of imports to aggregate expenditure is pushed back toward 1.
+  \item Imported inputs tend to decrease the magnitude of the trade wedge.
+  \item Similar result for trade between countries.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The composition of expenditure changes}
+  The evidence:
+  \begin{itemize}
+    \item A global input-output framework (forward model?) was fed observed
+      observed sectoral expenditure changes to predict trade flows during the crisis.
+      \item Another model (Ricardian) was used to break down the trade collapse
+        into components due to changes in final expenditure, changes in
+        productivity, changes in border trade frictions, and changes in trade
+        deficits. (Model dependent, measurement device)
+        \item Others used input-output tables to measure import demand, taking input linkages into account.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Amplification via inventory adjustments}
+  Insight from the benchmark framework:
+  \begin{itemize}
+  \item Assume, \(m_t=d_t+I_{t}-I_{t-1}\), i.e. final sales of imported goods \(d_t\) are equal to final expenditure on imports minus changes in private inventories.
+  \item Assume inventories are a constant ratio of final sales, \(\frac{I}{d}\).
+    \begin{align*}
+      \omega &= \beta_1\hat{\tau}_{ij}+\left(\beta_2-\sigma\right)\left(\hat{p}_i-\hat{P}_j\right) + \left(\beta_3-1\right)\hat{D}_j \\
+      \omega &= \frac{I}{d}\sigma\right)\left(\hat{p}_i-\hat{P}_j\right) + \frac{I}{d}\hat{D}_j
+    \end{align*}
+  \item Inventory adjustment amplifies the sensitivity of imports to changes in
+    both relative prices and real final sales.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Amplification via inventory adjustments}
+  The evidence:
+  \begin{itemize}
+  \item There is little direct evidence outside of the U.S. auto sector.
+  \item Imports fell against a less dramatic fall in final sales.
+  \item Inventory-to-sales ratios rose and then fell as retailers filled
+    orders from inventory.
+  \item Other research adopts a partial equilibrium model and calibrates
+    with the U.S. auto sector data.
+  \item Shocks to the model correspond to the stylized fact that imports
+    respond more than final sales do.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financial shocks and exports}
+  \begin{itemize}
+  \item The financial crisis and ensuing credit crunch had effects on trade on
+    the supply side.
+  \item Organizing the liturature:
+    \begin{enumerate}
+    \item The financial crisis impeded production, and hence exports, because firms depend on external credit to finance production.
+    \item The financial crisis disrupted the financing of international transactions.
+    \end{enumerate}
+  \item The authors regard international trade finance disruptions as increasing
+    the cost of delivering goods to foreign consumers, while holding the price
+    of production constant.
+  \item Direct, comprehensive data not available.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financial shocks and exports}
+  Export supply shocks:
+  \begin{itemize}
+  \item Production at the firm level is a function of demand for output and credit used by the firm.
+  \item The credit used is a function of the supply of credit to the firm and
+    the firm’s demand for credit, which depends on the demand for output.
+  \item Data on credit use are not typically available at the firm or industry level.
+  \item The use of credit is endogenous to production decisions.
+  \item Changes in demand for output may be correlated with credit disruptions at the firm or sector level.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financial shocks and exports}
+  The evidence:
+  \begin{itemize}
+  \item Firm level data indicate that less favorable credit conditions and
+    higher liquidity requirements correlated with lower trade during the crisis.
+  \item Sector level data suggest exports fell more for sectors high
+    external finance dependence.
+  \item Matched firm-bank data show bank performance and firm exports linked via export-credit elasticity.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financial shocks and exports}
+  International trade finance:
+  \begin{itemize}
+  \item Trade finance refers to financing arrangements for cross-border
+    transactions.
+  \item Both bank-intermediated and nonbank trade finance are considered.
+  \item The financial crisis limited the availability bank-intermediated
+    finance.
+  \item Limited credit availability may have led firms to hoard liquidity.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Financial shocks and exports}
+  The evidence:
+  \begin{itemize}
+  \item Markets continued to function despite stresses in bank-intermediated trade finance.
+    The decline in bank-intermediated trade finance appears to mostly result from the decline in trade itself, rather than vice versa.
+  \item Importers who traded on cash-in-advance terms prior to the crisis decreased their imports by more than those who traded on open account terms.
+  \item Trade credit declined less for firms with more short-term debt during
+    the crisis.
+  \item Firms who were able to substitute toward trade credit experienced smaller declines in sales.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Recap}
+  \begin{itemize*}
+  \item Three main proximate causes and/or propagation mechanisms that account for the collapse of international trade:
+  \item \textcolor{green}{\cmark} Changes in expenditure: 65-80\%
+  \item \textcolor{green}{\cmark} Credit shocks: 15-20\%
+  \item \textcolor{green}{\cmark} Inventory adjustments: up to 20\%
+  \item \textcolor{red}{\xmark} Trade policy: 0\%
+  \end{itemize*}
+\end{frame}
+
+\end{document}
