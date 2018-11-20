@@ -1,0 +1,50 @@
+#+STARTUP: latexpreview
+* Review of The Great Trade Collapse
+- Rudolf Bems
+- Robert C. Johnson
+- Kei-Mu Yi
+** Abstract
+We survey recent literature on the causes of the collapse in international trade during the 2008–2009 global recession.
+We argue that the evidence points to the collapse in aggregate expenditure, concentrated on trade-intensive durable goods, as the main driver of the trade collapse.
+Inventory adjustment likely amplified the impact of these expenditure changes on trade.
+In addition, shocks to credit supply constrained export supply, further exacerbating the decline in trade.
+Most evidence suggests that changes in trade policy did not play a large role.
+** Introduction
+1. Changes in real final expenditure were responsible for most of the collapse of international trade.
+2. Financial shocks that disrupted export supply and impeded international transactions played a secondary role in explaining the decline of trade.
+3. Changes in trade policy --- i.e., protectionism --- played essentially no role in explaining the trade collapse, at least in the aggregate.
+** Stylized Facts
+1. The trade collapse stands out relative to post-WWII experience in terms of its abruptness, magnitude, and synchronization across countries.
+2. The trade collapse was asymmetric across sectors.
+3. The trade collapse occurred almost entirely on the intensive margin of trade, whether measured at the sector or firm level.
+4. The trade collapse mostly resulted from changes in the volume of trade, not price changes.
+** Framework
+*** Constant elasticity of substitution (CES) import demand
+    \(d_{ij} = \frac{\left(\tau_{ij}p_i}{P_j}\right)^\sigmaD_j\),
+    - \(d_{ij}\) is the aggregate real imports by country \(j\) from country \(i\),
+    - \(p_i\) is the price at the factory gate of the good from country \(i\),
+    - \(\tau_{ij}\) is an ad valorem cost of deliviring good s from the factory gate in country \(i\) to final purchasers in country j,
+    - \(P_j\) is the aggregate price index for final expenditure in country \(j\), and
+    - \(D_j\) is real aggregate expenditure by country \(j\).
+    \(d_{ij}\)
+    \(hat{d}_{ij} = - \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j\)
+    We refer to \(\hat{d}_ij\) as the CES-predicted change in imports.
+    "This CES import demand equation immediately points to two reasons why trade collapsed."
+    \(\omega\equiv\hat{m}_{ij}-\hat{d}_{ij} = \hat{m}_{ij} + \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j\)
+    We call \(\omega\) the trade wedge. The trade wedge measures the discrepancy between the model and data, serving as a model diagnostic.
+In summary, we propose mapping explanations for the trade collapse into either (a) relative price changes or (b) changes in the trade wedge.
+** The Composition of Expenditure Changes
+*** Translating Aggregate Expenditure into Imports
+**** Asymmetries in expenditure changes across sectors
+**** Input linkages across sectors
+**** Vertical specialization in trade.
+**** Evidence on the Role of Expenditure Changes
+** Amplification via Inventory Adjustments
+** Financial Shocks and Exports
+** Trade Policy
+** Conclutions
+*** Three main proximate causes and/or propagation mechanisms that account for the collapse of international trade
+1. Compositional effects associated with changes in expenditure: 65-80%
+2. Credit shocks: 15-20%
+3. Inventory adjustments: up to 20%
+4. Trade policy: 0%
