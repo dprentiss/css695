@@ -20,18 +20,20 @@ Most evidence suggests that changes in trade policy did not play a large role.
 4. The trade collapse mostly resulted from changes in the volume of trade, not price changes.
 ** Framework
 *** Constant elasticity of substitution (CES) import demand
-    \(d_{ij} = \frac{\left(\tau_{ij}p_i}{P_j}\right)^\sigmaD_j\),
+    \(d_{ij} = \left(\frac{\tau_{ij}p_i}{P_j}\right)^{-\sigma}D_j\)
     - \(d_{ij}\) is the aggregate real imports by country \(j\) from country \(i\),
     - \(p_i\) is the price at the factory gate of the good from country \(i\),
-    - \(\tau_{ij}\) is an ad valorem cost of deliviring good s from the factory gate in country \(i\) to final purchasers in country j,
+    - \(\tau_{ij}\) is an ad valorem cost of delivering good \(s\) from the factory gate in country \(i\) to final purchasers in country \(j\),
     - \(P_j\) is the aggregate price index for final expenditure in country \(j\), and
     - \(D_j\) is real aggregate expenditure by country \(j\).
     \(d_{ij}\)
-    \(hat{d}_{ij} = - \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j\)
+    \(\hat{d}_{ij} = - \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j\)
     We refer to \(\hat{d}_ij\) as the CES-predicted change in imports.
     "This CES import demand equation immediately points to two reasons why trade collapsed."
     \(\omega\equiv\hat{m}_{ij}-\hat{d}_{ij} = \hat{m}_{ij} + \sigma\left(\hat{p}_i-\hat{P}_j\right)-\hat{D}_j\)
-    We call \(\omega\) the trade wedge. The trade wedge measures the discrepancy between the model and data, serving as a model diagnostic.
+\(\hat{m}_{ij} = \beta_1\hat{\tau}_{ij}+\beta_2\left(\hat{p}_i-\hat{P}_j\right) + \beta_3\hat{D}_j\)
+\(\omega = \beta_1\hat{\tau}_{ij}+\left(\beta_2-\sigma\right)\left(\hat{p}_i-\hat{P}_j\right) + \left(\beta_3-1\right)\hat{D}_j\)
+We call \(\omega\) the trade wedge. The trade wedge measures the discrepancy between the model and data, serving as a model diagnostic.
 In summary, we propose mapping explanations for the trade collapse into either (a) relative price changes or (b) changes in the trade wedge.
 ** The Composition of Expenditure Changes
 *** Translating Aggregate Expenditure into Imports
@@ -39,8 +41,28 @@ In summary, we propose mapping explanations for the trade collapse into either (
 **** Input linkages across sectors
 **** Vertical specialization in trade.
 **** Evidence on the Role of Expenditure Changes
+There are two main messages from Section 4.1.
+1. Changes in asymmetric expenditure across sectors interact with differences in sectoral import intensity to determine changes in imports.
+2. Input linkages across sectors and countries mediate the relationship between expenditure changes and changes in trade.
+Therefore, one needs to simultaneously account for both asymmetric expenditure changes and input linkages to quantify the role of expenditure in explaining the trade collapse.
+All four present baseline estimates that expenditure changes accounted for 65–80% of the trade collapse.
+These results imply an elasticity of world trade to GDP of the order of 3, well in excess of the unitary elasticity that would be implied by the benchmark aggregate CES framework in Section 3.
 ** Amplification via Inventory Adjustments
+Direct evidence on this channel is difficult to come by, as information on inventories and sales for imported goods is not available for most industries, or even in the aggregate.
+Data are available for the US auto industry, however, so the authors use this industry as a case study.
+Alessandria et al show that the decline in sales was matched by a sharp rise in the inventory-to-sales ratio for imported autos.
+The inventory-to-sales ratio then fell back to its initial level over time as retailers filled orders out of inventory rather than imports.
+Once the inventory-to-sales ratio returned to its normal level, retailers started importing again to meet consumer demand, and imports of autos rebounded.
+To generalize this example to economy-wide adjustment, Alessandria et al. turn to a model.
+In Alessandria et al. (2010a), they extend the partial equilibrium sS inventory model in Alessandria et al. (2010b) to a two-country setting and calibrate it using import and inventory behavior for the United States.
+They then simulate model responses to shocks to the cost of labor and a shock to the carrying cost of inventory (in the form of an interest rate shock) and evaluate the performance of the model against a benchmark model without inventory frictions.
+The model generates the stylized fact that imports respond more than final sales do, as observed in the data.
+It also generates sharp V-shaped declines in imports and hump-shaped inventory-to-sales ratios, as in the timeseries data for autos during the trade collapse.
 ** Financial Shocks and Exports
+*** Export Supply Shocks
+****
+*** International Trade Finance
+*** Quantitative Magnitudes
 ** Trade Policy
 ** Conclutions
 *** Three main proximate causes and/or propagation mechanisms that account for the collapse of international trade
